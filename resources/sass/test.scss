@@ -1,0 +1,164 @@
+&#_concept{
+    #concept{
+        .container{
+            display: block;
+
+            .title{
+                @media #{$mq_xssm-l-xl_xssm}{
+                    margin-top: -6px;
+                }
+                @media #{$mq_xssm-l-xl_l}{
+                    padding-top: 150px;
+                }
+                @media #{$mq_xssm-l-xl_xl}{
+                    padding-top: 200px;
+                }
+                width: 100%;
+                text-align: center;
+
+                .h1{
+                    font-size: 30px;
+                    position: relative;
+
+                    .by{
+                        @media #{$mq_xss-m-lxl_xss}{
+                            display: block;
+                            width: 36px;
+                            height: 36px;
+                            margin: 12px auto 11px auto;
+                        }
+                        @media #{$mq_xss-m-lxl_m}{
+                            display: block;
+                            width: 36px;
+                            height: 36px;
+                            margin: 12px auto 11px auto;
+                        }
+                        @media #{$mq_xss-m-lxl_lxl}{
+                            display: inline-block;
+                            width: 72px;
+                            height: 72px;
+                            margin: 0px 20px;
+                        }
+                        vertical-align: middle;
+                        background-image: url(#{$path}asset/img/icon_by.svg);
+                    }
+                }
+            }
+
+            .lead{
+                @media #{$mq_xssm-l-xl_xssm}{
+                    padding: 40px 20px 92px 20px;
+                }
+                @media #{$mq_xssm-l-xl_l}{
+                    padding: 93px 20px 142px 20px;
+                }
+                @media #{$mq_xssm-l-xl_xl}{
+                    padding: 93px 20px 192px 20px;
+                }
+                width: calc(100% - 40px);
+                text-align: center;
+
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+#concept{
+    position: relative;
+    width: 100%;
+    background: url(#{$path}asset/img/concept_bg.png), linear-gradient(135deg, $uncar_lightblue 0%, $uncar_navy 100%);
+    background-position: center 50%;
+
+    >h1{
+        display: none;
+    }
+
+    .container{
+        @media #{$mq_xssm-lxl_lxl}{
+            display: flex;
+        }
+        width: 100%;
+        max-width: $contents_max_width;
+        margin: 0px auto;
+
+        .title{
+            @media #{$mq_xssm-lxl_xssm}{
+                width: 100%;
+            }
+            @media #{$mq_xssm-lxl_lxl}{
+                width: 50%;
+            }
+            position: relative;
+
+            .h1{
+                @media #{$mq_xssm-lxl_xssm}{
+                    display: block;
+                    position: relative;
+                    width: 100%;
+                    padding-top: 102px;
+                }
+                @media #{$mq_xssm-lxl_lxl}{
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .lead{
+            @media #{$mq_xssm-lxl_xssm}{
+                width: 100%;
+                padding: 47px 0px 100px 0px;
+            }
+            @media #{$mq_xssm-lxl_lxl}{
+                width: 50%;
+                padding: 92px 0px 100px 0px;
+            }
+            position: relative;
+            
+            p{
+                @media #{$mq_xssm-lxl_xssm}{
+                    display: block;
+                    text-align: center;
+                }
+                @media #{$mq_xssm-lxl_lxl}{
+                    display: inline-block;
+                    text-align: left;
+                }
+                position: relative;
+                margin: 0px auto;
+
+                .button{
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+}
+
+<div id="concept">
+    <h1>CONCEPT</h1>
+    <div class="container">
+        <div class="title">
+            <span class="h1 font_bold">CONCEPT</span>
+        </div>
+        <div class="lead font_bold">
+            <p>
+                <span class="nowrap">毎年収穫されるみずみずしい野菜や果物</span><br>
+                <span class="nowrap">普段食べているものから</span>
+                <span class="nowrap">みたこともないものまで</span><br>
+                <span class="nowrap">様々な種類の農産物が集まっています</span><br>
+                <span class="nowrap">野菜を組み合わせて</span><br>
+                <span class="nowrap">楽しい食生活をお楽しみください</span><br>
+                <span class="nowrap">みなさまの健康生活を支援する</span><br><br>
+                <span class="nowrap">オンラインショップです</span><br><br>
+                <a class="button navy_on_white font_bold" href="/concept/">READ MORE</a>
+            </p>
+        </div>
+    </div>
+</div>

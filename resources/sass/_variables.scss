@@ -1,0 +1,228 @@
+// COLOR
+
+$black: #000;
+$gray: #7a8387;
+$darkgray: #0e121a;
+$white: #f5f3f0;
+$lightbeige: #ccc5b5;
+$beige: #b8a98d;
+$lightblue: #738a98;
+$navy: #263145;
+$darknavy: #0c111d;
+$pink: #d66467;
+$palepink: #e4aea5;
+$brown: #a87226;
+$green: #99FF66;
+
+
+
+// PATH
+
+//$path: '//uncardev.sakura.ne.jp/';
+$path: '//storage.uncar.spfdesign.jp/';
+//$path: '/';
+
+
+
+// FONTS
+
+$font_light: 'Posterama Text W01 Thin', 'AXIS ProN W55 EL', _YuGothic, 'Yu Gothic', YuGothic, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, Meiryo, sans-serif;
+$font_regular: 'Posterama Text W01 Light', 'AXIS ProN W01 R', _YuGothic, 'Yu Gothic', YuGothic, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, Meiryo, sans-serif;
+$font_medium: 'Posterama Text W01 Light', 'AXIS ProN W01 R', _YuGothic, 'Yu Gothic', YuGothic, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, Meiryo, sans-serif;
+$font_bold: 'Posterama Text W01 Bold', 'AXIS ProN W01 B', _YuGothic, 'Yu Gothic', YuGothic, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, Meiryo, sans-serif;
+$font_bold_with_jp: 'Posterama Text W01 Regular', 'AXIS ProN W01 B', _YuGothic, 'Yu Gothic', YuGothic, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, Meiryo, sans-serif;
+$font_weight_regular: 300;
+$font_weight_medium: 600;
+$font_weight_bold: 700;
+$font_weight_menu: 1000;
+$font_load_checker: 'Posterama Text W01 Light', AdobeBlank;
+$menu_text: Manjari,cursive;
+
+
+// MEDIA QUERY : XS/S2 - M/L/XL
+
+$mq_xss2-m-lxl_xss2: 'all and (max-width:414px)';
+$mq_xss2-m-lxl_m: 'all and (min-width:415px) and (max-width:735px)';
+$mq_xss2-m-lxl_lxl: 'all and (min-width:736px)';
+
+// MEDIA QUERY : XS/S2/M/L - XL
+
+$mq_xss2ml-xl_xss2ml: 'all and (max-width:1024px)';
+$mq_xss2ml-xl_xl: 'all and (min-width:1025px)';
+
+// MEDIA QUERY : XS/S2 - M/L - XL
+
+$mq_xss2-m-l-xl_xss2: 'all and (max-width:414px)';
+$mq_xss2-m-l-xl_m: 'all and (min-width:415px) and (max-width:735px)';
+$mq_xss2-m-l-xl_l: 'all and (min-width:736px) and (max-width:1024px)';
+$mq_xss2-m-l-xl_xl: 'all and (min-width:1025px)';
+
+// MEDIA QUERY : XS - S2 - M - L/XL
+
+$mq_xs-s2-m-lxl_xs: 'all and (max-width:320px)';
+$mq_xs-s2-m-lxl_s2: 'all and (min-width:321px) and (max-width:414px)';
+$mq_xs-s2-m-lxl_m: 'all and (min-width:415px) and (max-width:735px)';
+$mq_xs-s2-m-lxl_lxl: 'all and (min-width:736px)';
+
+// MEDIA QUERY : XS - S2/M - L/XL
+
+$mq_xs-s2m-lxl_xs: 'all and (max-width:320px)';
+$mq_xs-s2m-lxl_s2m: 'all and (min-width:321px) and (max-width:735px)';
+$mq_xs-s2m-lxl_lxl: 'all and (min-width:736px)';
+
+// MEDIA QUERY : XS/S2M - L/XL
+
+$mq_xss2m-lxl_xss2m: 'all and (max-width:735px)';
+$mq_xss2m-lxl_lxl: 'all and (min-width:736px)';
+
+// MEDIA QUERY : XS/S2M - L - XL
+
+$mq_xss2m-l-xl_xss2m: 'all and (max-width:735px)';
+$mq_xss2m-l-xl_l: 'all and (min-width:736px) and (max-width:1024px)';
+$mq_xss2m-l-xl_xl: 'all and (min-width:1025px)';
+
+// MEDIA QUERY : XS/S2 - M/L/XL
+
+$mq_xss2-m-lxl_xss2: 'all and (max-width:414px)';
+$mq_xss2-m-lxl_m: 'all and (min-width:415px) and (max-width:735px)';
+$mq_xss2-m-lxl_lxl: 'all and (min-width:736px)';
+
+
+// MEDIA QUERY : XS - S2 - M/L/XL
+
+$mq_xs-s2-mlxl_xs: 'all and (max-width:320px)';
+$mq_xs-s2-mlxl_s2: 'all and (min-width:321px) and (max-width:414px)';
+$mq_xs-s2-mlxl_mlxl: 'all and (min-width:415px)';
+
+
+//
+
+
+// MEDIA QUERY : XS - S - M - L - XL
+
+$mq_xs-s-m-l-xl_xs: 'all and (max-width:320px)';
+$mq_xs-s-m-l-xl_s: 'all and (min-width:321px) and (max-width:375px)';
+$mq_xs-s-m-l-xl_m: 'all and (min-width:376px) and (max-width:735px)';
+$mq_xs-s-m-l-xl_l: 'all and (min-width:736px) and (max-width:1024px)';
+$mq_xs-s-m-l-xl_xl: 'all and (min-width:1025px)';
+
+
+// MEDIA QUERY : XS - S/M - L - XL
+
+$mq_xs-sm-l-xl_xs: 'all and (max-width:320px)';
+$mq_xs-sm-l-xl_sm: 'all and (min-width:321px) and (max-width:735px)';
+$mq_xs-sm-l-xl_l: 'all and (min-width:736px) and (max-width:1024px)';
+$mq_xs-sm-l-xl_xl: 'all and (min-width:1025px)';
+
+
+// MEDIA QUERY : XS - S - M/L - XL
+
+$mq_xs-s-ml-xl_xs: 'all and (max-width:320px)';
+$mq_xs-s-ml-xl_s: 'all and (min-width:321px) and (max-width:375px)';
+$mq_xs-s-ml-xl_ml: 'all and (min-width:376px) and (max-width:1024px)';
+$mq_xs-s-ml-xl_xl: 'all and (min-width:1025px)';
+
+
+// MEDIA QUERY : XS - S - M - L/XL
+
+$mq_xs-s-m-lxl_xs: 'all and (max-width:320px)';
+$mq_xs-s-m-lxl_s: 'all and (min-width:321px) and (max-width:375px)';
+$mq_xs-s-m-lxl_m: 'all and (min-width:376px) and (max-width:735px)';
+$mq_xs-s-m-lxl_lxl: 'all and (min-width:736px)';
+
+
+// MEDIA QUERY : XS - S - M/L/XL
+
+$mq_xs-s-mlxl_xs: 'all and (max-width:320px)';
+$mq_xs-s-mlxl_s: 'all and (min-width:321px) and (max-width:375px)';
+$mq_xs-s-mlxl_mlxl: 'all and (min-width:376px)';
+
+
+// MEDIA QUERY : XS/S - M - L - XL
+
+$mq_xss-m-l-xl_xss: 'all and (max-width:375px)';
+$mq_xss-m-l-xl_m: 'all and (min-width:376px) and (max-width:735px)';
+$mq_xss-m-l-xl_l: 'all and (min-width:736px) and (max-width:1024px)';
+$mq_xss-m-l-xl_xl: 'all and (min-width:1025px)';
+
+
+// MEDIA QUERY : XS/S - M/L - XL
+
+$mq_xss-ml-xl_xss: 'all and (max-width:375px)';
+$mq_xss-ml-xl_ml: 'all and (min-width:376px) and (max-width:1024px)';
+$mq_xss-ml-xl_xl: 'all and (min-width:1025px)';
+
+
+// MEDIA QUERY : XS/S - M - L/XL
+
+$mq_xss-m-lxl_xss: 'all and (max-width:375px)';
+$mq_xss-m-lxl_m: 'all and (min-width:376px) and (max-width:735px)';
+$mq_xss-m-lxl_lxl: 'all and (min-width:736px)';
+
+// MEDIA QUERY : XS - S/M/L/XL
+
+$mq_xs-smlxl_xs: 'all and (max-width:320px)';
+$mq_xs-smlxl_smlxl: 'all and (min-width:321px)';
+
+// MEDIA QUERY : XS/S - M/L/XL
+
+$mq_xss-mlxl_xss: 'all and (max-width:375px)';
+$mq_xss-mlxl_mlxl: 'all and (min-width:376px)';
+
+
+// MEDIA QUERY : XS - S/M - LXL
+
+$mq_xs-sm-lxl_xs: 'all and (max-width:320px)';
+$mq_xs-sm-lxl_sm: 'all and (min-width:321px) and (max-width:735px)';
+$mq_xs-sm-lxl_lxl: 'all and (min-width:736px)';
+
+
+// MEDIA QUERY : XS/S/M - L - XL
+
+$mq_xssm-l-xl_xssm: 'all and (max-width:735px)';
+$mq_xssm-l-xl_l: 'all and (min-width:736px) and (max-width:1024px)';
+$mq_xssm-l-xl_xl: 'all and (min-width:1025px)';
+
+// MEDIA QUERY : XS/S/M - L/XL
+
+$mq_xssm-lxl_xssm: 'all and (max-width:735px)';
+$mq_xssm-lxl_lxl: 'all and (min-width:736px)';
+
+// MEDIA QUERY : XS/S/M/L - XL
+
+$mq_xssml-xl_xssml: 'all and (max-width:1024px)';
+$mq_xssml-xl_xl: 'all and (min-width:1025px)';
+
+
+
+//
+
+$contents_max_width: 1000px;
+
+
+
+// Z-INDEX
+
+$zindex_bg: -1;
+$zindex_header: 500;
+$zindex_cart: 500;
+$zindex_modal: 400;
+$zindex_logocomposition: 100;
+$zindex_addtocart: 90;
+$zindex_nametagcontainer: 85;
+$zindex_images: 80;
+$zindex_oldie: 1000;
+$zindex_special_breadcrumbs: 300;
+$zindex_special_astoryofunite_line: 200;
+$zindex_special_astoryofunite_portrait: 300;
+$zindex_special_astoryofunite_connected: 300;
+
+
+
+
+//
+
+$yen: '\00a5'; // 「￥」（特殊文字の方）
+$zeikomi: '\00ff08\007a0e\008fbc\00ff09'; // 「（税込）」
+
+
